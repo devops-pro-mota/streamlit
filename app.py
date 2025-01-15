@@ -34,7 +34,7 @@ def fazear_pergunta_llm(pergunta, chave_api):
     else:
         return f"Erro ao fazer a pergunta {response.status_code}"
         
-st.image("unimed_logo.png", width=100)
+st.image("logo_unimed_bot.png", width=100)
 st.title('UnimedBR Assistent!')
 chave_api = "B2VDWKK-C6VMS23-P6WYGCK-XPEQE7Q"
 adicionar_estilos_css()
